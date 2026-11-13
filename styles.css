@@ -58,3 +58,10 @@ main{padding:6px 6px 30px}.intro{max-width:760px;margin:0 auto 24px;text-align:c
 .process-item a:hover img,.interview-item a:hover img{transform:scale(1.015);transition:transform .2s ease}
 @media(max-width:760px){.process-gallery{grid-template-columns:1fr 1fr;gap:13px}.process-item img{height:190px}.interview-gallery{grid-template-columns:1fr;gap:16px}.interview-item img{max-height:none}}
 @media(max-width:430px){.process-gallery{grid-template-columns:1fr}.process-item img{height:220px}}
+
+/* Download options for the printable board-game kit */
+.board-choice{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}
+.board-choice>div{background:#f3e8d8;border:1px solid #c8a47e;padding:12px;display:flex;flex-direction:column;align-items:flex-start;gap:5px}
+.board-choice strong{font-family:'Josefin Slab',serif;font-size:18px;color:#4d2d1b}
+.board-choice span{font-size:15px;line-height:1.35}
+@media(max-width:600px){.board-choice{grid-template-columns:1fr}}
